@@ -1,0 +1,155 @@
+
+body {
+    background-color: blue;
+}
+
+.bg-dark {
+  background-color: purple;
+}
+
+h4.text-white, h1.jumbotron-heading, .navbar-brand {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+  h4.text-white {
+  font-size: 1.7rem;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+p.text-muted {
+  font-family: 'Oswald', serif;
+  font-size: 1.1rem;
+  line-height: 2.0rem;
+}
+
+navbarHeader {
+    background-color: blue;
+}
+
+  h1.jumbotron-heading {
+    font-size: 2.5rem;
+  }
+
+  p.lead, .my-2, .card-text, footer {
+    font-family: "Roboto";
+  }
+
+p.lead {
+  font-size: 1.3rem;
+}
+  .my-2 {
+    font-size: 1rem;
+  }
+
+  .card-text {
+    font-size: 1rem;
+  }
+
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+button {
+  border-color: red;
+}
+
+.btn-primary:link {
+  background-color: green;
+}
+
+.btn-primary:visited {
+  background-color: blue;
+}
+
+.btn-primary:hover {
+  background-color: red;
+}
+
+.btn-primary:active {
+  background-color: red;
+}
+
+.btn-secondary:link {
+  background-color: blue;
+}
+
+.btn-secondary:visited {
+  background-color: blue;
+}
+
+.btn-secondary:hover {
+  background-color: red;
+}
+
+.btn-secondary:active {
+  background-color: red;
+}
+
+.jumbotron {
+  padding-top: .2rem;
+  padding-bottom: .5rem;
+  margin-bottom: 0;
+  background-color: blue;
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 50rem;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+.block {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 3rem;
+  padding-left: 3rem;
+}
+
+.hero {
+  width: 100vw;
+  height: 50vh;
+}
+
+
+@media (min-width: 576px) {  }
+
+@media (min-width: 768px) {
+
+  .jumbotron {
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+  }
+}
+
+
+@media (min-width: 992px) {  }
+
+@media (min-width: 1200px) {  }
