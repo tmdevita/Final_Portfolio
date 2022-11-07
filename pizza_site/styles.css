@@ -1,0 +1,48 @@
+nav a {
+    padding: 10px;
+    background: red;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    display: inline;
+}
+nav a:hover {
+    background: white;
+    color: red;
+}
+.small {
+    width: 400px;
+    box-shadow: 4px 5px 3px 0px #00000038;
+}
+body {
+    background-color: tan;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+.container {
+    background: #eee;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+}
+button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #555;
+}
+button:hover {
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+}
+h1 {
+    font-family: 'Staatliches', cursive;
+    font-size: 50px;
+}
+footer {
+    padding-top: 10px;
+}

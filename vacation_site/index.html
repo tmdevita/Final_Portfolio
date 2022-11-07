@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Vacation Packages</title>
+    <style>
+    body {
+        margin: auto;
+    }
+    .container {
+        background: #fff6eb;
+        max-width: 900px;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .hero-text {
+        position: absolute;
+        text-align: center;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 450%;
+        color: white;
+        text-shadow: 5px 3px 2px #04040473;
+    }
+    .hero-text1 {
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 200%;
+        color: white;
+        text-shadow: 5px 3px 2px #04040473;
+    }
+    .grid {
+        border: 1px #fff6eb solid;
+        display: grid;
+        height: 220px;
+        margin: 10px;
+        padding-left: 5px;
+        padding-bottom: 5px;
+        padding-right: 5px;
+        grid-template: repeat(1, 1fr) / repeat(4, 1fr)
+    }
+    .item {
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        border: 1px #fff6eb solid;
+        max-height: 200px;
+        padding: 8px;
+        margin: 5px;
+    }
+    .nav {
+        background-color: #000000;
+        width: 100%;
+        text-align: center;
+        overflow: hidden;
+    }
+    .nav a {
+        padding: 8px 10px;
+        float: left;
+        background: #002f5b;
+        text-decoration: none;
+        color: white;
+        text-align: center;
+    }
+    .nav a:hover {
+        background: white;
+        color: #002f5b;
+    }
+    h3 {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .pic {
+        width: 190px;
+        height: 150px;
+    }
+    .item p {
+        text-align: right;
+    }
+    h1 {
+        padding: 10px;
+    }
+    .slideshow {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+    }
+    /* https://www.w3schools.com/howto/howto_js_slideshow.asp */
+    .text {
+        color: white;
+        font-size: 50px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .dot {
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+    .active {
+        background-color: #717171;
+    }
+    .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+    @-webkit-keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+    }
+    @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+    }
+    @media only screen and (max-width: 600px) {
+        .text {font-size: 11px}
+    }
+    .one {
+        height: 500px;
+    }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </div>
+    <!-- https://www.w3schools.com/howto/howto_js_slideshow.asp -->
+    <div class="slidshow">
+        <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img class="one" src="img/hero1.jpg" style="width:1280px">
+            <div class="hero-text">Vacation Desinations</div>
+            <p class="hero-text1">Find your ideal vacation</p>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img class="one" src="img/4.jpg" style="width:1280px">
+            <div class="hero-text">Vacation Desinations</div>
+            <p class="hero-text1">Find your ideal vacation</p>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img class="one" src="img/b.jpg" style="width:1280px">
+            <div class="hero-text">Vacation Desinations</div>
+            <p class="hero-text1">Find your ideal vacation</p>
+        </div>
+        <div style="text-align:center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+        <div class="container">
+            <h1>Packages</h1>
+            <h3>Deals Under $500</h3>
+            <hr />
+            <div class="grid">
+                <div class="item">Bahamas
+                    <img class="pic"src="img/bahamas.jpg" alt="">
+                    <p>$450</p>
+                </div>
+                <div class="item">Hawaii
+                    <img class="pic"src="img/hawaii.jpg" alt="">
+                    <p>$499</p>
+                </div>
+                <div class="item">Carribean
+                    <img class="pic"src="img/carribean.jpg" alt="">
+                    <p>$399</p>
+                </div>
+                <div class="item">Italy
+                    <img class="pic"src="img/italy.jpg" alt="">
+                    <p>$499</p>
+                </div>
+            </div>
+            <h3>All Inclusive Packages</h3>
+            <hr />
+            <div class="grid">
+                <div class="item">Mexico
+                    <img class="pic" src="img/mexico.jpg" alt="">
+                    <p>$599</p>
+                </div>
+                <div class="item">Dubai
+                    <img class="pic" src="img/dubai.jpg" alt="">
+                    <p>$799</p>
+                </div>
+                <div class="item">Spain
+                    <img class="pic" src="img/spain.jpeg" alt="">
+                    <p>$750</p>
+                </div>
+                <div class="item">Thailand
+                    <img class="pic" src="img/thailand.jpg" alt="">
+                    <p>$699</p>
+                </div>
+            </div>
+        </div>
+        <script src="js/js"></script>
+        <script src="js/js-backstretch"></script>
+        <script>
+        $.backstretch("img/water.jpg");
+    </script>
+    <script>
+    // https://www.w3schools.com/howto/howto_js_slideshow.asp
+    var slideIndex = 0;
+    showSlides();
+    function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 4000);
+    }
+</script>
+
+</body>
+</html>
