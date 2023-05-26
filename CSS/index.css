@@ -67,6 +67,7 @@ button {
 
 .btn-primary:link {
   background-color: green;
+  display: inline;
 }
 
 .btn-primary:visited {
@@ -136,6 +137,22 @@ footer p {
 .hero {
   width: 100vw;
   height: 50vh;
+}
+
+.casestudy {
+  text-align: center;
+}
+
+.card {
+  width: 300px;
+}
+
+.container {
+  display: inline;
+}
+
+.row {
+  justify-content: center;
 }
 
 
