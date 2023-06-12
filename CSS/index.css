@@ -62,11 +62,11 @@ p.lead {
 
 
 button {
-  border-color: red;
+  border-color: black;
 }
 
 .btn-primary:link {
-  background-color: green;
+  background-color: black;
   display: inline;
 }
 
@@ -75,11 +75,11 @@ button {
 }
 
 .btn-primary:hover {
-  background-color: red;
+  background-color: black;
 }
 
 .btn-primary:active {
-  background-color: red;
+  background-color: black;
 }
 
 .btn-secondary:link {
@@ -91,11 +91,11 @@ button {
 }
 
 .btn-secondary:hover {
-  background-color: red;
+  background-color: black;
 }
 
 .btn-secondary:active {
-  background-color: red;
+  background-color: black;
 }
 
 .jumbotron {
